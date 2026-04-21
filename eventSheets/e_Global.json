@@ -17,7 +17,7 @@
 		},
 		{
 			"eventType": "comment",
-			"text": "\"none\" → nenhum estado\n\"default\" = cursor padrão\n\"pointer\" = cursor pointer"
+			"text": "\"none\" → nenhum cursor\n\"default\" = cursor padrão\n\"pointer\" = cursor pointer"
 		},
 		{
 			"eventType": "variable",
