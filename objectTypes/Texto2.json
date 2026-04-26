@@ -1,0 +1,16 @@
+{
+	"name": "Texto2",
+	"plugin-id": "Text",
+	"sid": 426633558954731,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "shadowcaster",
+			"name": "ProjetorDeSombra",
+			"sid": 175070324624924
+		}
+	],
+	"effectTypes": []
+}

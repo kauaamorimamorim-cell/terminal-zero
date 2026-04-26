@@ -1,0 +1,133 @@
+{
+	"name": "Sprite17",
+	"plugin-id": "Sprite",
+	"sid": 756961349910567,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "eCorreto",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 736915750889528
+		},
+		{
+			"name": "true",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 397296698139315
+		},
+		{
+			"name": "correto",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 768331474421665
+		},
+		{
+			"name": "Variável1",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 900482566257594
+		},
+		{
+			"name": "correto1",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 780693592850265
+		},
+		{
+			"name": "Variável2",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 756237833786625
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 696,
+						"height": 1024,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 501359,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 483140543284612,
+				"name": "arquivo_falso",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 696,
+						"height": 1024,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1332288,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 663079529987104,
+				"name": "arquivo_incorreto2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 696,
+						"height": 1024,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7560511,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 473702757801362,
+				"name": "Animação 2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

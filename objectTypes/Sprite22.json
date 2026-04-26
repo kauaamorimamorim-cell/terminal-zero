@@ -1,0 +1,73 @@
+{
+	"name": "Sprite22",
+	"plugin-id": "Sprite",
+	"sid": 483427479070518,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "vitoria",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 497507719167436
+		},
+		{
+			"name": "id",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 746374364092951
+		},
+		{
+			"name": "id3",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 114682313304402
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Flash",
+			"name": "Piscar",
+			"sid": 561652510999625
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Senóide",
+			"sid": 461647661910918
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 696,
+						"height": 1024,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4594139,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 715975788962501,
+				"name": "arquivo",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

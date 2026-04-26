@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "SVGPicture",
+			"name": "Imagem SVG",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -71,8 +78,22 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Sin",
+			"name": "Senóide",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Tween",
 			"name": "Interpolação",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "shadowcaster",
+			"name": "Projetor de sombra",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -86,7 +107,39 @@
 	],
 	"uniqueId": "infcrcpul51",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Sprite",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5",
+			"Sprite6",
+			"Sprite7",
+			"Sprite8",
+			"Sprite9",
+			"Sprite10",
+			"Sprite11",
+			"Sprite12",
+			"Sprite13",
+			"Sprite14",
+			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"Sprite18",
+			"Sprite19",
+			"Sprite20",
+			"Texto",
+			"Texto2",
+			"Sprite21",
+			"Sprite22",
+			"ImagemSVG",
+			"Sprite23",
+			"Sprite24",
+			"Sprite25",
+			"Sprite26",
+			"Sprite27",
+			"Sprite28"
+		],
 		"subfolders": [
 			{
 				"items": [

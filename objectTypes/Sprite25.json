@@ -1,0 +1,80 @@
+{
+	"name": "Sprite25",
+	"plugin-id": "Sprite",
+	"sid": 541940001519897,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "vitoria",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 297368480931238
+		},
+		{
+			"name": "id",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 490925874875708
+		},
+		{
+			"name": "id2",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 642100305003190
+		},
+		{
+			"name": "id4",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 343831426395068
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Senóide",
+			"sid": 169733083389683
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Piscar",
+			"sid": 649362434071566
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 696,
+						"height": 1024,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1838516,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 423209284689873,
+				"name": "arquivo",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
