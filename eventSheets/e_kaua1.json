@@ -5,72 +5,95 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 228296484818170,
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 507110842737498
+				},
+				{
+					"id": "repeat",
+					"objectClass": "System",
+					"sid": 102912070591661,
 					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "Sprite19"
+						"count": "10"
 					}
 				},
 				{
-					"id": "compare-instance-variable",
-					"objectClass": "Sprite19",
-					"sid": 358107420094881,
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 838578470842544,
 					"parameters": {
-						"instance-variable": "id",
-						"comparison": 0,
-						"value": "1"
+						"object": "Sprite68"
 					}
 				}
 			],
 			"actions": [
 				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 559128848104085,
+					"parameters": {
+						"object-to-create": "Sprite67",
+						"layer": "0",
+						"x": "random ( 0 , LayoutWidth )",
+						"y": "random ( 0 , LayoutHeight )",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 960652635529132,
+					"parameters": {
+						"object-to-create": "Sprite68",
+						"layer": "0",
+						"x": "random(0, LayoutWidth)\n        ",
+						"y": "random(0, LayoutHeight)",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 993971972786842,
+					"sid": 444368109428076,
 					"parameters": {
-						"layout": "kaua1"
+						"layout": "Arquivos"
 					}
 				}
 			],
-			"sid": 312735568466846
-		},
-		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 460822264419822
-		},
-		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 621672443449756
+			"sid": 752831219384366
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-object-clicked",
+					"id": "on-click",
 					"objectClass": "Mouse",
-					"sid": 750934971760321,
+					"sid": 360844002778886,
 					"parameters": {
 						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "Sprite20"
+						"click-type": "clicked"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "destroy",
-					"objectClass": "Sprite20",
-					"sid": 844341730077362
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 666619381967009,
+					"parameters": {
+						"variable": "isPlayerMoving",
+						"value": "-1"
+					}
 				}
 			],
-			"sid": 560156159244213
+			"sid": 194515390627733
+		},
+		{
+			"eventType": "script",
+			"language": "typescript",
+			"script": []
 		}
 	],
 	"sid": 232405698982738
